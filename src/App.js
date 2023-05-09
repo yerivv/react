@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const name1 = 'YR';
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+        {name1 === 'YR' ? <div>맞아요</div> : <div>틀려요</div>}
+      </div>
     </div>
   );
 }
